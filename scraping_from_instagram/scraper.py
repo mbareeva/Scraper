@@ -4,12 +4,13 @@ import time
 
 ## Login to the Instagram account ##
 bot = Bot()
-bot.login(username = "jacob1223steiner",  password = "123456jacob") #insert your login and password for Instagram
+bot.login(username = "******",  password = "********") #insert your login and password for Instagram
 usersFinal = []
 
 ## Open file with a list of usernames. Afterwards, extract
 # the profile information (username, full name, biography) 
 # and media information (likes and captions) for users.
+# insert the name of the file with usernames.
 with open('../usernames.json') as json_file:
   usernames = json.load(json_file)
   for username in usernames:
