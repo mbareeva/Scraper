@@ -1,0 +1,25 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "Web scraping of top influencers of Instagram",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scraping"
+  ],
+  "author": "MAyya Bareeva",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "fs": "0.0.1-security",
+    "json-concat": "0.0.1",
+    "json-merger": "^1.1.6",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.8"
+  }
+}

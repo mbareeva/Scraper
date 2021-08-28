@@ -1,0 +1,60 @@
+2021-08-04 17:42:19,056 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2021-08-04 17:42:19,057 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\49177\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\instabot\bot\bot.py
+2021-08-04 17:42:19,057 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2021-08-04 17:42:19,219 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2021-08-04 17:42:19,360 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2021-08-04 17:42:19,551 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2021-08-04 17:42:19,716 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2021-08-04 17:42:23,001 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [200]>
+2021-08-04 17:42:23,001 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'mamba2021murm'!
+2021-08-04 17:42:23,002 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: True
+2021-08-04 17:42:23,194 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2021-08-04 17:42:24,535 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2021-08-04 17:42:24,691 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: zr/token/result/?device_id=android-8f95ca2920fef9ae&token_hash=&custom_device_id=android-8f95ca2920fef9ae&fetch_reason=token_expired returned response: <Response [200]>
+2021-08-04 17:42:24,842 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: multiple_accounts/get_account_family/ returned response: <Response [200]>
+2021-08-04 17:42:24,982 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2021-08-04 17:42:43,278 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: igtv/browse_feed/?prefetch=1 returned response: <Response [500]>
+2021-08-04 17:42:43,279 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b''
+2021-08-04 17:42:43,279 - instabot version: 0.117.0 (api) - ERROR - Request returns 500 error!
+2021-08-04 17:42:43,281 - instabot version: 0.117.0 (api) - ERROR - Error checking for `feedback_required`, response text is not JSON
+2021-08-04 17:42:43,282 - instabot version: 0.117.0 (api) - INFO - Full Response: <Response [500]>
+2021-08-04 17:42:43,284 - instabot version: 0.117.0 (api) - INFO - Response Text: 
+2021-08-04 17:42:43,285 - instabot version: 0.117.0 (api) - ERROR - Error unknown send request
+2021-08-04 17:42:43,464 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: creatives/ar_class/ returned response: <Response [200]>
+2021-08-04 17:42:43,729 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2021-08-04 17:42:47,491 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2021-08-04 17:42:47,653 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/blocked/ returned response: <Response [200]>
+2021-08-04 17:42:48,246 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: news/inbox/ returned response: <Response [200]>
+2021-08-04 17:42:49,215 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: loom/fetch_config/ returned response: <Response [200]>
+2021-08-04 17:42:49,626 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: scores/bootstrap/users/?surfaces=["autocomplete_user_list","coefficient_besties_list_ranking","coefficient_rank_recipient_user_suggestion","coefficient_ios_section_test_bootstrap_ranking","coefficient_direct_recipients_ranking_variant_2"] returned response: <Response [200]>
+2021-08-04 17:42:49,824 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: business/eligibility/get_monetization_products_eligibility_data/?product_types=branded_content returned response: <Response [200]>
+2021-08-04 17:42:49,986 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: business/branded_content/should_require_professional_account/ returned response: <Response [200]>
+2021-08-04 17:42:50,851 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: linked_accounts/get_linkage_status/ returned response: <Response [200]>
+2021-08-04 17:42:51,573 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: locations/request_country/ returned response: <Response [200]>
+2021-08-04 17:42:51,730 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: qp/get_cooldowns/?signed_body=signed_body=4b9c516a5410a3bc128e09c6104a7f042146b9c2023870560c63a43a7f66781c.4&ig_sig_key_version=4&ig_sig_key_version=4 returned response: <Response [200]>
+2021-08-04 17:42:51,905 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/arlink_download_info/?version_override=2.2.1 returned response: <Response [200]>
+2021-08-04 17:42:52,396 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/48898752045/info/ returned response: <Response [200]>
+2021-08-04 17:42:52,799 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2021-08-04 17:42:55,670 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&thread_message_limit=10&persistentBadging=true&limit=20 returned response: <Response [200]>
+2021-08-04 17:42:56,072 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&persistentBadging=true&limit=0 returned response: <Response [200]>
+2021-08-04 17:42:57,103 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: discover/topical_explore/?is_prefetch=true&omit_cover_media=true&use_sectional_payload=true&timezone_offset=0&session_id=fd754248-3545-4576-ad2e-692b97b7ca6b&include_fixed_destinations=true returned response: <Response [200]>
+2021-08-04 17:42:57,250 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: notifications/badge/ returned response: <Response [200]>
+2021-08-04 17:42:57,613 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qp/batch_fetch/ returned response: <Response [200]>
+2021-08-04 17:42:57,614 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\49177\Documents\InstaMatch\Scraper\scraping_from_instagram/config/mamba2021murm.checkpoint
+2021-08-04 17:43:08,060 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/cigarlover12/usernameinfo/ returned response: <Response [200]>
+2021-08-04 17:43:08,805 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/5766295866/info/ returned response: <Response [200]>
+2021-08-04 17:43:15,956 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/5766295866/?max_id=&min_timestamp=None&rank_token=48898752045_cf4fe9e1-0dfd-4de5-844e-5d6ec88a987a&ranked_content=true returned response: <Response [200]>
+2021-08-04 17:43:16,106 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2632921934758500051_5766295866/info/ returned response: <Response [429]>
+2021-08-04 17:43:16,106 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Please wait a few minutes before you try again.","status":"fail"}'
+2021-08-04 17:43:16,106 - instabot version: 0.117.0 (api) - ERROR - Request returns 429 error!
+2021-08-04 17:43:16,107 - instabot version: 0.117.0 (api) - WARNING - That means 'too many requests'. I'll go to sleep for 5 minutes.
+2021-08-04 17:48:16,286 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2632921934758500051_5766295866/info/ returned response: <Response [429]>
+2021-08-04 17:48:16,286 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Please wait a few minutes before you try again.","status":"fail"}'
+2021-08-04 17:48:16,287 - instabot version: 0.117.0 (api) - ERROR - Request returns 429 error!
+2021-08-04 17:48:16,287 - instabot version: 0.117.0 (api) - WARNING - That means 'too many requests'. I'll go to sleep for 10 minutes.
+2021-08-04 17:58:16,497 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2632921934758500051_5766295866/info/ returned response: <Response [429]>
+2021-08-04 17:58:16,497 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Please wait a few minutes before you try again.","status":"fail"}'
+2021-08-04 17:58:16,498 - instabot version: 0.117.0 (api) - ERROR - Request returns 429 error!
+2021-08-04 17:58:16,499 - instabot version: 0.117.0 (api) - WARNING - That means 'too many requests'. I'll go to sleep for 15 minutes.
+2021-08-04 18:01:11,074 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\49177\Documents\InstaMatch\Scraper\scraping_from_instagram/config/mamba2021murm.checkpoint
+2021-08-04 18:01:11,075 - instabot version: 0.117.0 (bot) - INFO - Total requests: 3823
